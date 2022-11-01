@@ -1,0 +1,11 @@
+// fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+
+body {
+  background-color: lightpink;
+}
