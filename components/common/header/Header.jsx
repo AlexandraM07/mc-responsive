@@ -1,9 +1,16 @@
-export default function Header() {
+import HeaderPrimary from './HeaderPrimary';
+import HeaderSecondary from './HeaderSecondary';
+
+export default function Home() {
   return (
     <>
-    <section className="header-secondary">
-      
-    </section>
+      <div className="header-secondary">
+        <HeaderSecondary></HeaderSecondary>
+      </div>
+
+      <div className="header-primary">
+        <HeaderPrimary></HeaderPrimary>
+      </div>
     </>
-  )
+  );
 }
