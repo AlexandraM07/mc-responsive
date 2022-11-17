@@ -4,7 +4,7 @@ export default function HeaderSecondary() {
   return (
     <>
       <section className="header-secondary-inner">
-        <div className="header-connect">
+        <div className="header-connect d-none d-lg-block">
           <ul>
             <li>
               <a
