@@ -1,6 +1,12 @@
-.header-secondary {
-  margin: 16px;
+.header {
+  margin-top: 15px;
 
+  @include media-breakpoint-up(lg) {
+    margin: 0;
+  }
+}
+
+.header-secondary {
   @include media-breakpoint-up(lg) {
     background: url(/images/dekstop/banner.png) no-repeat center center / cover;
     height: 500px;
@@ -41,7 +47,7 @@
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-self: end;
     gap: 10px;
     grid-column: 2 / span 1;
     font-size: 22px;

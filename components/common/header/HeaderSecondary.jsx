@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function HeaderSecondary() {
   return (
     <>
-      <section className="header-secondary-inner">
+      <section className="header-secondary-inner container">
         <div className="header-connect d-none d-lg-block">
           <ul>
             <li>
