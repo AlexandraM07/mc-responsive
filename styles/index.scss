@@ -27,3 +27,15 @@ body {
   font-family: 'Playfair Display', serif;
   color: $brand-primary;
 }
+
+.container {
+  padding: 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: 0;
+  }
+}
+
+@import './homepage/index.scss';
+
+@import './catalog/index';

@@ -92,14 +92,14 @@ export default function Footer() {
 
         <section className="footer-connect">
           <div className="footer-newsletter mt-4 my-lg-0">
-            <header className="d-lg-none">
+            <header className="d-lg-none my-4">
               <h1>Let's connect</h1>
             </header>
 
             <form method="get">
-              <h2 htmlFor="email" className="d-lg-none">
+              <label htmlFor="email" className="d-lg-none mb-2">
                 Be the first to receive exclusive offers
-              </h2>
+              </label>
 
               <label htmlFor="email" className="d-none d-lg-block">
                 Sign up for our newsletter
@@ -107,15 +107,16 @@ export default function Footer() {
               <input type="email" name="email" id="email" placeholder="Email" />
             </form>
 
+            <label htmlFor=""></label>
             <button
               type="submit"
               title="Sign up for our newsletter"
-              className="button button-secondary d-block d-lg-none"
+              className="button button-secondary d-block d-lg-none my-2"
             >
               Submit
             </button>
 
-            <form method="get">
+            <form method="get" className="my-2">
               <input type="checkbox" name="policy" id="policy" />
 
               <label htmlFor="policy">
@@ -137,7 +138,9 @@ export default function Footer() {
           </div>
 
           <div className="footer-social my-4 my-lg-3">
-            <header className="d-lg-none">We are highly likeable</header>
+            <header>
+              <h1 className="d-lg-none">We are highly likeable </h1>
+            </header>
 
             <ul className="my-3 my-lg-0">
               <li>
